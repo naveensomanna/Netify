@@ -8,6 +8,7 @@ import {
   MdNotifications,
   MdArrowDropDown
 } from "react-icons/md";
+import { Select } from "../theme/globalStyle";
 
 const HeaderWrapper = styled.header`
   height: 80px;
@@ -77,8 +78,15 @@ const WatchListWrapper = styled.div`
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
+    margin-left: 10px;
     letter-spacing: 0.8px;
   }
+`;
+const NotifyProfileWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 25%;
 `;
 const ProfileWrapper = styled.div`
   position: relative;
@@ -117,11 +125,12 @@ const Header = () => {
             <MdFavorite />
             <span>watchlist</span>
           </WatchListWrapper>
-          <MdNotifications />
-          <ProfileWrapper>
-            <img src={user} alt="user profile" />
-          </ProfileWrapper>
-          <MdArrowDropDown />
+          <NotifyProfileWrapper>
+            <MdNotifications />
+            <ProfileWrapper>
+              <img src={user} alt="user profile" />
+            </ProfileWrapper>
+          </NotifyProfileWrapper>
         </RightHeader>
       </HeaderContainer>
     </HeaderWrapper>
