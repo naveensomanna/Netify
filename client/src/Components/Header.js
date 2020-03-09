@@ -1,14 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../images/logo.png";
+import logo from "../images/icon.png";
 import user from "../images/user.svg";
-import {
-  MdSearch,
-  MdFavorite,
-  MdNotifications,
-  MdArrowDropDown
-} from "react-icons/md";
-import { Select } from "../theme/globalStyle";
+import { MdSearch, MdFavorite, MdNotifications } from "react-icons/md";
 
 const HeaderWrapper = styled.header`
   height: 80px;
