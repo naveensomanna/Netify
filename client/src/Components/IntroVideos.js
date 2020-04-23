@@ -20,20 +20,20 @@ const IntroVideos = () => {
     <IntroVideosWrapper>
       <FullContainer>
         <video autoPlay muted loop width="98%">
-          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>
-        </video>
-      </FullContainer>
+          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>{" "}
+        </video>{" "}
+      </FullContainer>{" "}
       <VerticalVideos>
-        <video autoPlay muted loop width="100%" height="180px">
-          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>
-        </video>
-        <video autoPlay muted loop width="100%" height="180px">
-          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>
-        </video>
-        <video autoPlay muted loop width="100%" height="180px">
-          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>
-        </video>
-      </VerticalVideos>
+        <video muted width="100%" height="180px">
+          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>{" "}
+        </video>{" "}
+        <video muted width="100%" height="180px">
+          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>{" "}
+        </video>{" "}
+        <video muted width="100%" height="180px">
+          <source src="http://video.itunes.apple.com/apple-assets-us-std-000001/Video118/v4/67/76/0d/67760df3-65e6-a3d3-02a7-81340664bcf2/mzvf_5168019211393929040.720w.h264lc.U.p.m4v"></source>{" "}
+        </video>{" "}
+      </VerticalVideos>{" "}
     </IntroVideosWrapper>
   );
 };
